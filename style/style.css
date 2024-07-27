@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: url("../fonts/ptsansnarrow-700.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --basic-black: #000;
+  --basic-extra-dark: #242424;
+  --basic-dark: #595959;
+  --basic-neutral: #bdbdbd;
+  --basic-light: #e7e7e7;
+  --basic-extra-light: #f6f6f6;
+  --basic-white: #fff;
+  --special-extra-dark: #4e2e0e;
+  --special-dark: #814b18;
+  --special-neutral: #af7842;
+  --special-light: #dbb590;
+  --special-extra-light: #fbf7f4;
+  --status-error: #ea5454;
+  --status-warning: #fd912e;
+  --status-success: #00e484;
+  --pattern-light: #fbf7f4;
+  --pattern-dark: #242424;
+}
+
+:root {
+  --font-family: "PT Sans", sans-serif;
+  --second-family: "PT Sans Narrow", sans-serif;
+}
+
+.heading-1,
+.heading-2,
+.heading-3 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--basic-black);
+}
+
+.heading-1 {
+  font-size: 32px;
+  line-height: 1.1em;
+}
+
+.heading-2 {
+  font-size: 24px;
+  line-height: 1.2em;
+}
+
+.heading-3 {
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.text-sub{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+.text-bold {
+  font-weight: 700;
+}
