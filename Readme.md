@@ -1,12 +1,9 @@
 # проект Барбершоп
 
-* Сайт: [Мой проект Барбершоп](https://nicae-dev.github.io/2475289-sedona-40/)
+* Сайт: [Мой проект Барбершоп](https://nicae-dev.github.io/barbershop/)
 
 ---
-
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
-
+Сайт был создан для дополнительного закрепления навыков
 ---
 
 <a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
